@@ -16,10 +16,10 @@ cd fastapi-devex
 docker-compose up --build
 ```
 
-# To stop and remove containers, networks, and volumes:
+## To stop and remove containers, networks, and volumes:
 docker-compose down
 
-Access:
+## Access:
 - API: [http://localhost:8000/im_ok](http://localhost:8000/im_ok)
 - Prometheus metrics: [http://localhost:8000/metrics](http://localhost:8000/metrics)
 - Prometheus UI: [http://localhost:9090](http://localhost:9090)
